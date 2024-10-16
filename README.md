@@ -25,8 +25,20 @@ your data
         pip install -r requirements.txt
 
 ###
-### Run
-Run the bot with 
+### Run 
+Run the bot with docker compose:
+
+      docker compose build
+      docker compose up
+
+###
+Run the bot with docker
+
+      docker build -t bot .
+      docker run bot
+
+###
+Run the bot locally with
 
     python bot.py
 
